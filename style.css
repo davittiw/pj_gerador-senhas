@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap');
+
 *{
     margin: 0 auto;
     font-family: sans-serif;
@@ -13,11 +15,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-weight: 300;
 }
 
 .pai{
     background-color: rgba(98, 138, 116, 0.603);
-    width: 50%;
+    width: 30%;
     padding: 70px;
     border-radius: 10%;
     display: flex;
@@ -31,11 +34,28 @@ body{
     margin-bottom: 24px;
     text-align: center;
     color: #fff;
+    font-family: "Poppins";
+    font-weight: 800;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.social a{
+    font-size: 40px;
+    color: #FFF;
 }
 
 .container-input{
     max-width: 480px;
     margin: 14px 0;
+    flex-direction: column;
 }
 
 .container-input span{
