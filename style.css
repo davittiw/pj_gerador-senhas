@@ -19,10 +19,10 @@ body{
 }
 
 .pai{
-    background-color: rgba(98, 138, 116, 0.603);
-    width: 30%;
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 70%;
     padding: 70px;
-    border-radius: 10%;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@ body{
 
 .container-input span{
     color: #fff;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .slider{
